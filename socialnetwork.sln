@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "socialnetwork", "socialnetwork\socialnetwork.csproj", "{879FD6EF-2DF1-4C09-AD2C-B065838EC204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{945E7516-B0E4-4153-9C6C-8C89F855418E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{E1A53498-2B11-4E81-9E62-D333972BB319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{879FD6EF-2DF1-4C09-AD2C-B065838EC204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879FD6EF-2DF1-4C09-AD2C-B065838EC204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879FD6EF-2DF1-4C09-AD2C-B065838EC204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879FD6EF-2DF1-4C09-AD2C-B065838EC204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945E7516-B0E4-4153-9C6C-8C89F855418E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945E7516-B0E4-4153-9C6C-8C89F855418E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945E7516-B0E4-4153-9C6C-8C89F855418E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945E7516-B0E4-4153-9C6C-8C89F855418E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A53498-2B11-4E81-9E62-D333972BB319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A53498-2B11-4E81-9E62-D333972BB319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A53498-2B11-4E81-9E62-D333972BB319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A53498-2B11-4E81-9E62-D333972BB319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

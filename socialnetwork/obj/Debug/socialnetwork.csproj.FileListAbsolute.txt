@@ -1,0 +1,9 @@
+E:\threetier projects\socialnetwork\socialnetwork\bin\socialnetwork.dll
+E:\threetier projects\socialnetwork\socialnetwork\bin\socialnetwork.pdb
+E:\threetier projects\socialnetwork\socialnetwork\bin\BAL.dll
+E:\threetier projects\socialnetwork\socialnetwork\bin\DAL.dll
+E:\threetier projects\socialnetwork\socialnetwork\bin\BAL.pdb
+E:\threetier projects\socialnetwork\socialnetwork\bin\DAL.pdb
+E:\threetier projects\socialnetwork\socialnetwork\obj\Debug\socialnetwork.csprojResolveAssemblyReference.cache
+E:\threetier projects\socialnetwork\socialnetwork\obj\Debug\socialnetwork.dll
+E:\threetier projects\socialnetwork\socialnetwork\obj\Debug\socialnetwork.pdb

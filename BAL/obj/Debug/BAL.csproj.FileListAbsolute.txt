@@ -1,0 +1,7 @@
+E:\threetier projects\socialnetwork\BAL\bin\Debug\BAL.dll
+E:\threetier projects\socialnetwork\BAL\bin\Debug\BAL.pdb
+E:\threetier projects\socialnetwork\BAL\bin\Debug\DAL.dll
+E:\threetier projects\socialnetwork\BAL\bin\Debug\DAL.pdb
+E:\threetier projects\socialnetwork\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+E:\threetier projects\socialnetwork\BAL\obj\Debug\BAL.dll
+E:\threetier projects\socialnetwork\BAL\obj\Debug\BAL.pdb

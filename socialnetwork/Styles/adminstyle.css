@@ -1,0 +1,143 @@
+﻿body {
+}
+form
+{
+   
+    margin-left:2px;
+    height:1103px;
+    width:1095px;
+    margin-top: 3px;
+}
+.homemain
+{ height:1100px;
+    width:1094px;
+    background-color:#FFCC99;
+  float:left;
+    
+}
+.tbwelcome
+{
+    margin-left:400px;
+    height: 4px;
+    width: 587px;
+}
+
+
+.homeheader
+{
+     height:70px;
+    width:1000px;
+    background-color:transparent;
+    margin-top:10px;
+    float:left;
+   
+}
+
+.middle
+{
+    height:330px;
+    width:1094px;
+    margin-top:5px;
+    background-color:Green;
+    float:left;
+}
+.middle img
+{
+    height:329px;
+    width:1092px;
+    float:left;
+  
+    float:left;
+    margin-left: 0px;
+    margin-top: 4px;
+}
+.menu
+{
+    height:56px;
+    width:1040px;
+    background-color:Silver;
+    float:left;
+    margin-top:3px;
+}
+.menu ul li
+{
+    float:left;
+    display:block;
+    list-style:none;
+}
+.menu ul li a
+{
+    padding-left:25px;
+    padding-right:20px;
+    text-decoration:none;
+}
+.menu ul li a:hover
+	{
+		background-color:Red;
+	}
+.menuright
+{
+    height:50px;
+ width:460px;
+ 
+    float:right;
+    background-color:Lime;
+}
+.searchclass
+{
+    background-color:Blue;
+    margin-left:700px;
+    float:right;
+    width: 136px;
+}
+.left
+{
+    height:641px;
+    width:220px;
+    background-color:Yellow;
+    float:left;
+}
+.left img
+{
+    margin-left:5px;
+    margin-top:5px;
+    
+}
+.left ul li
+{
+    float:left;
+    display:block;
+    list-style:none;
+    width: 159px;
+    height: 33px;
+}
+.left ul li a
+{
+    
+    text-decoration:none;
+}
+.left ul li a:hover
+	{
+		background-color:Red;
+	}
+.right
+{
+    height:640px;
+    width:1075px;
+    margin-left:10px;
+    float:left;
+ 
+    
+}
+ table
+ {
+    margin-left:20px;
+     margin-right:20px;
+     margin-top:20px;
+     margin-bottom:0px;
+ }   
+ .profileimg
+ {
+     margin-left:10px;
+    margin-top: 0px;
+}

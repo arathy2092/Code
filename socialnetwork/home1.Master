@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="home1.master.cs" Inherits="socialnetwork.home11" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/homestyle.css" rel="Stylesheet" type="text/css" />
+    </head>
+<body>
+     <form class="homeform" runat="server" 
+     
+     style="border-style: groove; border-color: #00CCFF; background-color: #000000;">
+     
+    <div id="homemain" class="homemain" style="background-color:#FF6666">
+   
+        <div class="homeheader">
+    
+     <table class="tbwelcome">
+        <tr>
+        <td><asp:Label ID="lblwelcome" runat="server" Text="Welcome:" 
+                style="text-align:center" ForeColor="#FF6666"></asp:Label>
+        </td>
+        <td><asp:Label ID="lblname" runat="server" ForeColor="#FF6666"></asp:Label>
+        </td></tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td style="width:200px"></td>
+        <td style="width:150px"></td>
+        
+        <td><asp:Button ID="btnlogout" runat="server" Text="Logout" style="text-align:right" 
+                BackColor="#FF6666" onclick="btnlogout_Click" />
+        
+        </td></tr>
+       
+        </table>
+      
+    </div>
+    <div class="middle" style="background-color: #000000">
+    <img src="images/7.jpg" /></div>
+          
+    <div id="menu" class="menu" runat="server" style="background-color: #000000">
+ <div class="menuright" style="background-color: #000000;">
+ 
+      <asp:Label   ID="lblsearch" runat="server" Text="Search" 
+          ForeColor="#FF6666"></asp:Label>    
+      <asp:TextBox ID="txtsearch" runat="server" 
+          style="margin-left: 14px; margin-top: 12px; margin-right: 0px;" 
+          Height="26px" ></asp:TextBox>
+      <asp:Button ID="Btnsearch" runat="server" Text="Search" 
+          style="margin-left: 10px" BackColor="#FF6666" onclick="Btnsearch_Click"/>
+         
+    </div>
+    <ul style="width: 680px; color: #FF6666; height: 23px;">
+    <li><a href="profile.aspx" style="color: #FF6666" >Profile</a></li>
+    <li><a href="scrap.aspx" style="color: #FF6666" >Scrap</a></li>
+    <li><a href="scrapin.aspx" style="color: #FF6666" >Scrap In</a></li>
+    <li><a href="employeefeedback.aspx" style="color: #FF6666" >Feedback</a></li>
+    <li><a href="usernews.aspx" style="color: #FF6666" >News</a></li>
+    
+     <li><a href="userad.aspx" style="color: #FF6666" >Advertisements</a></li>
+
+     
+        </ul>
+       
+    </div>
+      <div  id="left" class="left" runat="server" style="border-color: #FF9999; background-color: #000000">
+    <asp:Image ID="imgprofilephoto" runat="server" ImageUrl="~/images/profilepic.png" 
+              Height="197px" Width="197px"/>
+  
+  
+ 
+    <ul style="color: #00CCFF">
+     <li><a href="viewfriends.aspx" style="color: #FF6666" >Friends</a></li>
+    <li></li>
+   
+    <li><a href="friendrequest.aspx" style="color: #FF6666" >FriendRequest</a></li>
+    <li></li>
+    <li><a href="photogallery.aspx" style="color: #FF6666" >photos</a></li>
+  
+        <li></li>
+     <li><a href="userchangepassword.aspx" style="color: #FF6666" >Change Password</a></li>
+    
+      <li></li>
+        <li><a href="deletefriends.aspx" style="color: #FF6666" >Delete Friends</a></li> 
+    </ul>
+ </div>  
+ <asp:ContentPlaceHolder ID="Contentbody" runat="server" >
+        
+        </asp:ContentPlaceHolder>
+ <%-- <div id="right" class="right" runat="server" style="background-color: #000000">
+  
+ </div>  
+ --%> 
+  
+    </div> 
+    </form>
+</body>
+</html>

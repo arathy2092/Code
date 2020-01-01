@@ -1,0 +1,4 @@
+E:\threetier projects\socialnetwork\DAL\bin\Debug\DAL.dll
+E:\threetier projects\socialnetwork\DAL\bin\Debug\DAL.pdb
+E:\threetier projects\socialnetwork\DAL\obj\Debug\DAL.dll
+E:\threetier projects\socialnetwork\DAL\obj\Debug\DAL.pdb

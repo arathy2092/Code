@@ -1,0 +1,98 @@
+﻿body {
+}
+form
+{
+    margin-left:200px;
+}
+.adminmain
+{
+    height: 700px;
+    width: 1000px;
+    background-color:Silver;
+   
+    float: left;
+    
+}
+.adminheader
+{
+   
+    height:400px;
+    width:1000px;
+    background-color:Blue;
+    float:left;
+}
+.adminheader img
+{ 
+    height:400px;
+    width:1000px;
+   float:left;
+}
+h1
+{
+    text-align:center;
+}
+.admintable
+{
+    margin-left:350px;
+}
+
+.admin1main
+{ height:1000px;
+    width:1000px;
+    background-color:#0099FF;
+    margin-left:200px;
+  float:left;
+    
+}
+.tbwelcome
+{
+    margin-left:400px;
+}
+.admin1header
+{
+     height:70px;
+    width:1000px;
+    background-color:transparent;
+    float:left;
+   
+}
+
+.middle
+{
+    height:230px;
+    width:1000px;
+    background-color:Green;
+    float:left;
+}
+.middle img
+{
+    height:230px;
+    width:998px;
+    float:left;
+    
+    float:left;
+}
+.menu
+{
+    height:47px;
+    width:1000px;
+    background-color:Silver;
+    float:left;
+    margin-top:3px;
+}
+.menu ul li
+{
+    float:left;
+    display:block;
+    list-style:none;
+}
+.menu ul li a
+{
+  padding-left:10px;
+    padding-right:30px;
+    text-decoration:none;
+}
+.menu ul li a:hover
+	{
+		background-color:Red;
+	}

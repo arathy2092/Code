@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="socialnetwork.admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   <link href="Styles/adminstyle.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+  
+    <style type="text/css">
+        .style2
+        {
+            height: 26px;
+        }
+        .style3
+        {
+            height: 26px;
+            width: 72px;
+        }
+        .style4
+        {
+            width: 72px;
+        }
+    </style>
+    
+  
+</head>
+<body>
+  <%--<form class="adminform" runat="server">
+    <div class="admin1main" style="background-color: #FFCC99; height: 992px;">
+    <div class="admin1header">
+     <table class="tbwelcome">
+        <tr>
+        <td align="right" class="style1"><asp:Label ID="lblwelcome" runat="server" Text="Welcome:" style="text-align:center"></asp:Label>
+        </td>
+        <td><asp:Label ID="lblname" runat="server" Text="Admin"></asp:Label>
+        </td></tr>
+        <tr>
+        <td class="style1"></td>
+        <td></td>
+        <td style="width:200px"></td>
+        <td style="width:150px"></td>
+        
+        <td><asp:Button ID="btnname" runat="server" Text="Logout" style="text-align:right"/>
+        
+        </td></tr>
+       
+        </table>
+       
+    </div>
+    <div class="middle">
+    <img src="images/5.jpg" style="width: 1003px; height: 308px"/></div>
+          
+    <div class="menu" style="background-color: #FF6600; height: 31px;">
+    <ul style="width: 999px; height: 29px; margin-left: 0px;">
+    <li><a href="" >Home</a></li>
+    <li><a href="" >Advertisemants</a></li>
+    <li><a href="" >News</a></li>
+    <li><a href="" >Check User</a></li>
+    <li><a href="" >Feedback</a></li>
+    <li><a href="" >Change Password</a></li>
+    <li><a href="" >Enable/Disable</a></li>
+    
+        </ul>
+       
+    </div>
+    
+ <div class="down">
+  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+        
+        </asp:ContentPlaceHolder></div>
+       
+    </div>
+  </form>--%>
+   <form id="Form1" class="homeform" runat="server" style="border-style: groove; border-color: #00CCFF; background-image: url('/images/bgimage1.jpg')">
+    <div class="homemain" style="background-color: #000000;">
+   
+        <div class="homeheader">
+    
+     <table class="tbwelcome">
+        <tr>
+        <td class="style3"><asp:Label ID="lblwelcome" runat="server" Text="Welcome" 
+                style="text-align:center" ForeColor="#FF6666"></asp:Label>
+        </td>
+        <td class="style2"><asp:Label ID="lblname" runat="server" Text="Admin"  style="text-align:center" ForeColor="#FF6666"></asp:Label>
+        </td></tr>
+        <tr>
+        <td class="style4"></td>
+        <td></td>
+        <td style="width:200px"></td>
+        <td style="width:150px"></td>
+        
+        <td><asp:Button ID="btnlogout" runat="server" Text="Logout" style="text-align:right; margin-top: 0px;" 
+                BackColor="#FF6666" onclick="btnlogout_Click1" Height="23px"/>
+        
+        </td></tr>
+       
+        </table>
+      
+    </div>
+    <div class="middle" style="background-color: #000000">
+    <img src="images/6.jpg"/></div>
+          
+    <div class="menu" style="background-color: #000000">
+ 
+    <ul style="width: 998px; color: #FF6666;">
+    <%--<li><a href="adminhome.aspx" style="color: #FF6666" >Home</a></li>
+    --%> <li><a href="authentication.aspx" style="color: #FF6666" >Authentication</a></li>
+    <li><a href="advertisement.aspx" style="color: #FF6666" >Advertisemants</a></li>
+    <li><a href="News.aspx" style="color: #FF6666" >News</a></li>
+       <li><a href="adminfeedback.aspx" style="color: #FF6666" >Feedback</a></li>
+      <li><a href="changepassword.aspx" style="color: #FF6666" >Change Password</a></li>
+ 
+        </ul>
+       
+    </div>
+     
+ <div class="right" style="background-color: #FF6666">
+ <asp:ContentPlaceHolder ID="Contentbody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+ </div>  
+  
+  
+    </div> 
+    </form>
+</body>
+</html>

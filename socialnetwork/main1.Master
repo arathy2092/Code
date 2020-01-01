@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main1.master.cs" Inherits="socialnetwork.main1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/styles/socialstyle.css" rel="Stylesheet" type="text/css" />
+  
+</head>
+<body>
+ <form id="mainform" runat="server" 
+    
+    style="border-style: groove; border-color: #00CCFF; background-image: url('/images/bgimage1.jpg')" >
+    
+
+ <table>
+ <tr>
+ <td>
+ <asp:Image ID="image1"  runat="server" ImageUrl="~/images/8.jpg" Height="400px" 
+         Width="1000px" />
+ </td></tr>
+ <tr>
+ <td>
+ <asp:ContentPlaceHolder ID="Contentheader" runat="server">
+     </asp:ContentPlaceHolder>
+ </td></tr>
+   <tr>
+   <td><asp:ContentPlaceHolder ID="Contentbody" runat="server">
+     </asp:ContentPlaceHolder>
+   </td></tr>
+ <tr>
+ <td> <h5 style="text-align:center; color: #C0C0C0;">
+        Copyright@RevolutionCreation.com </h5>
+ </td></tr>
+  
+ 
+
+</table>
+ </form>
+  
+   
+   </body>
+</html>

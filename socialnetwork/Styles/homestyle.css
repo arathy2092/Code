@@ -1,0 +1,153 @@
+﻿body {
+}
+form
+{
+   
+    margin-left:2px;
+    height:1103px;
+    width:1095px;
+    background-color:#FF6666;
+ 
+    margin-top: 3px;
+}
+.homemain
+{ height:1104px;
+    width:1070px;
+    background-color:#FF6666;
+  float:left;
+    
+}
+.tbwelcome
+{
+    margin-left:400px;
+}
+
+
+.homeheader
+{
+     height:70px;
+    width:1095px;
+    background-color:Black;
+    float:left;
+   
+}
+
+.middle
+{
+    height:330px;
+    width:1094px;
+    background-color:Green;
+    float:left;
+}
+.middle img
+{
+    height:329px;
+    width:1093px;
+    float:left;
+  
+    float:left;
+    margin-left: 0px;
+}
+.menu
+{
+    height:56px;
+    width:1093px;
+    background-color:Black;
+    float:left;
+    margin-top:3px;
+}
+.menu ul li
+{
+    float:left;
+    display:block;
+    list-style:none;
+}
+.menu ul li a
+{
+    padding-left:10px;
+    padding-right:25px;
+    text-decoration:none;
+}
+.menu ul li a:hover
+	{
+		background-color:Red;
+	}
+.menuright
+{
+    height:50px;
+ width:357px;
+ 
+    float:right;
+    background-color:Lime;
+}
+.searchclass
+{
+    background-color:Blue;
+    margin-left:700px;
+    float:right;
+    width: 136px;
+}
+.left
+{
+    height:641px;
+    width:220px;
+    background-color:Black;
+    float:left;
+}
+.left img
+{
+    margin-left:10px;
+    margin-top:20px;
+    
+}
+.left ul li
+{
+    float:left;
+    display:block;
+    list-style:none;
+    width: 159px;
+    height: 33px;
+}
+.left ul li a
+{
+    
+    text-decoration:none;
+}
+.left ul li a:hover
+	{
+		background-color:Red;
+	}
+.right
+{
+    height:622px;
+    width:72px;
+    margin-left:800px;
+    float:left;
+    margin-top: 0px;
+}
+ table
+ {
+     margin-left:0px;
+     margin-right:20px;
+     margin-top:0px;
+     margin-bottom:0px;
+ }   
+ .profileimg
+ {
+     margin-left:10px;
+    margin-top: 0px;
+}
+diva
+{
+    height:500px;
+    width:610px;
+    background-color:Green;
+     float:left;
+}
+.divb
+{
+    height:500px;
+    width:610px;
+    background-color:Blue;
+    float:left;
+}
